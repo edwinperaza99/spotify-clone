@@ -2,7 +2,7 @@
 import SongCollection from '../components/SongCollection.astro'
 ---
 
-<section class="bg-zinc-900 rounded-lg flex flex-col flex-1 gap-3 px-2 py-2">
+<section class="bg-zinc-900 rounded-lg flex flex-col flex-1 gap-3 px-2 py-2 max-h-full">
     <ul class="flex items-center place-content-between">
         <li id="Library" class="group">
             <button class="flex gap-3 text-gray-500 group-hover:text-white">
@@ -41,6 +41,7 @@ import SongCollection from '../components/SongCollection.astro'
         </li>
     </ul>
     <!-- TODO: add pills to filter  -->
+    <div class="overflow-auto">
     <ul class="flex items-center  place-content-between">
         <li class="group">
             <button>
@@ -66,16 +67,22 @@ import SongCollection from '../components/SongCollection.astro'
             </button>
         </li>
     </ul>
-    <SongCollection />
-    <SongCollection />
-    <SongCollection />
-    <SongCollection />
-    <SongCollection />
-    <SongCollection />
-    <SongCollection />
-    <SongCollection />
-    <SongCollection />
-    <SongCollection />
+        <SongCollection />
+        <SongCollection />
+        <SongCollection />
+        <SongCollection />
+        <SongCollection />
+        <SongCollection />
+        <SongCollection />
+        <SongCollection />
+        <SongCollection />
+        <SongCollection />
+        <SongCollection />
+        <SongCollection />
+        <SongCollection />
+        <SongCollection />
+        <SongCollection />
+    </div>
     
 
 </section>
