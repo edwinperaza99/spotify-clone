@@ -1,0 +1,38 @@
+---
+import Layout from '../layouts/Layout.astro';
+import Greeting from '../components/Greeting.astro';
+import SubHeader from '../components/SubHeader.astro';
+import NavBar from '../components/NavBar.astro';
+import Suggested from '../components/Suggested.astro';
+import SubHeaderCollection from '../components/SubHeaderCollection.astro';
+import '@/styles/global.css'
+---
+
+<Layout title="Spotify-clone">
+    <NavBar/>
+    <div class="flex pb-7">
+        <img src="https://i1.sndcdn.com/artworks-4Lu85Xrs7UjJ4wVq-vuI2zg-t500x500.jpg" alt="" class="max-h-32 rounded-md">
+        <div class="text-white">
+            <span class="text-sm">Playlist</span>
+            <h2 class="text-8xl font-bold">Liked Songs</h2>
+            <div class="flex items-center space-x-1">
+                <span class="text-sm font-semibold">Edwin</span>
+                <div class="bg-white rounded-full p-1"></div>
+                <span class="text-sm">3,868</span>
+            </div>
+        </div>
+    </div>
+
+    <div class="flex place-content-between">
+        <button id="play-button" class="rounded-full p-4 bg-green-400">
+            <svg class="stroke-black text-black" width="24" height="24" viewBox="0 0 24 24" stroke-width="1.5" stroke="#9e9e9e" fill="none" stroke-linecap="round" stroke-linejoin="round">
+                <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
+                <path d="M6 4v16a1 1 0 0 0 1.524 .852l13 -8a1 1 0 0 0 0 -1.704l-13 -8a1 1 0 0 0 -1.524 .852z" stroke-width="0" fill="currentColor" />
+            </svg>
+        </button>
+    </div>
+</Layout>
+
+<style>
+
+</style>
