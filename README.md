@@ -1,42 +1,54 @@
-# Astro Starter Kit: Basics
+# Spotify Clone with Astro 🚀
 
-```sh
-npm create astro@latest -- --template basics
-```
+This project is a Spotify clone built using the Astro framework, designed to replicate the user interface of Spotify. As my first project with Astro, this endeavor serves as a hands-on exploration of the framework, showcasing its capabilities and my learning journey. The design stays true to the original Spotify interface, aiming to provide a familiar user experience.
 
-[![Open in StackBlitz](https://developer.stackblitz.com/img/open_in_stackblitz.svg)](https://stackblitz.com/github/withastro/astro/tree/latest/examples/basics)
-[![Open with CodeSandbox](https://assets.codesandbox.io/github/button-edit-lime.svg)](https://codesandbox.io/p/sandbox/github/withastro/astro/tree/latest/examples/basics)
-[![Open in GitHub Codespaces](https://github.com/codespaces/badge.svg)](https://codespaces.new/withastro/astro?devcontainer_path=.devcontainer/basics/devcontainer.json)
+## Project Status
 
-> 🧑‍🚀 **Seasoned astronaut?** Delete this file. Have fun!
+This project is currently in development. The current version focuses on replicating the Spotify user interface. More features and functionalities are planned and will be added progressively.
 
-![just-the-basics](https://github.com/withastro/astro/assets/2244813/a0a5533c-a856-4198-8470-2d67b1d7c554)
+## Technologies Used
 
-## 🚀 Project Structure
+- [Astro](https://astro.build/) - The framework used to build the project.
+- [TailwindCSS](https://tailwindcss.com/) - The CSS framework used for styling.
 
-Inside of your Astro project, you'll see the following folders and files:
+## Prerequisites
 
-```text
-/
-├── public/
-│   └── favicon.svg
-├── src/
-│   ├── components/
-│   │   └── Card.astro
-│   ├── layouts/
-│   │   └── Layout.astro
-│   └── pages/
-│       └── index.astro
-└── package.json
-```
+- Node.js (v18.14.1 or higher)
 
-Astro looks for `.astro` or `.md` files in the `src/pages/` directory. Each page is exposed as a route based on its file name.
+## Run the Project
 
-There's nothing special about `src/components/`, but that's where we like to put any Astro/React/Vue/Svelte/Preact components.
+To run this project locally, follow these steps:
 
-Any static assets, like images, can be placed in the `public/` directory.
+1. **Clone the Repository**
 
-## 🧞 Commands
+   Clone this repository to your local machine using:
+
+   ```bash
+   git clone https://github.com/edwinperaza99/spotify-clone.git
+   ```
+
+2. **Install Dependencies**
+
+   Navigate to the project directory and install the necessary dependencies:
+
+   ```bash
+   cd spotify-clone-astro
+   npm install
+   ```
+
+3. **Run the Project**
+
+   Use the following command to run the project:
+
+   ```bash
+   npm run dev
+   ```
+
+4. **Access the Application**
+
+   By default, the app will be available at [http://localhost:4321/](http://localhost:4321/)
+
+## Commands
 
 All commands are run from the root of the project, from a terminal:
 
@@ -48,7 +60,3 @@ All commands are run from the root of the project, from a terminal:
 | `npm run preview`         | Preview your build locally, before deploying     |
 | `npm run astro ...`       | Run CLI commands like `astro add`, `astro check` |
 | `npm run astro -- --help` | Get help using the Astro CLI                     |
-
-## 👀 Want to learn more?
-
-Feel free to check [our documentation](https://docs.astro.build) or jump into our [Discord server](https://astro.build/chat).
